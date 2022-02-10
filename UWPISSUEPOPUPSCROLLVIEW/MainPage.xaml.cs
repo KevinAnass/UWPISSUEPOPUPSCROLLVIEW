@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.Forms;
 
 namespace UWPISSUEPOPUPSCROLLVIEW
@@ -13,6 +14,11 @@ namespace UWPISSUEPOPUPSCROLLVIEW
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage.Navigation.ShowPopup(new View1());
         }
     }
 }

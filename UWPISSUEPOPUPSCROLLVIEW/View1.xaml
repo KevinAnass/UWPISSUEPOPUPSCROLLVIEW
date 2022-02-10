@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UWPISSUEPOPUPSCROLLVIEW.View1"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <ScrollView>
+        <StackLayout>
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="60"
+                Text="title just " />
+            <Label
+                BackgroundColor="Red"
+                HeightRequest="60"
+                Text="title just " />
+        </StackLayout>
+    </ScrollView>
+
+</xct:Popup>
